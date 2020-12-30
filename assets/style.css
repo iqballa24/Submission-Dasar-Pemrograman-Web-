@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+.bg-header{
+	color: white;
+	padding: 55px;
+	background-image: url(../assets/image/images.png);
+
+}
+.box-profile{
+	box-shadow: 0 4px 6px 0 rgba(0,0,0.2);
+	border-radius: 50px;
+ 	background-color: #001c32;
+ 	font-weight: bold;
+	font-size: 13px;
+ 	padding: 20px;
+ 	border-style: double;
+}
+.box{
+	box-shadow: 0 4px 6px 0 rgba(0,0,0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+	border-style: none;
+	overflow: auto;
+}
+.box-skills{
+	width: 90%;
+	border-radius: 5px;
+	padding: 50px;
+	margin: 25px;
+	border-style: none;
+	overflow: auto;
+	display: none;
+}
+.featured-image{
+	width: 100%;
+	object-fit: cover ;
+	object-position: center;
+}
+.footer-li{
+	box-shadow: 0 4px 6px 0 rgba(0,0,0.2);
+	border-radius: 15px;
+	padding: 2px;
+	margin: 0 auto;
+	color: white;
+	background-color: #0c3454;
+	text-align: center;
+	font-weight: bold;
+
+}
+.li-inline{
+	display: inline;
+	/* list-style-type: circ; */
+	padding: 5px;
+}
+.ul-aside{
+	padding: 0px;
+}
+#background{
+	overflow: auto;
+}
+#content{
+	float: left;
+	width: 72%;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+article li{
+	list-style-type: square;
+}
+article footer {
+   padding: 5px;
+}
+aside{
+	padding-left:25px;
+	float:right;
+	width:28%;
+}
+body {
+   font-family: 'Source Sans Pro',sans-serif;
+   margin: 0;
+   padding: 0;
+}
+button{
+	padding: 5px 20px;
+	background-color: #0c3454;
+	border-radius: 5px;
+	color: white;
+}
+button:hover{
+	background-color: pink;
+}
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #0c3454;
+   text-align: center;
+   font-weight: bold;
+}
+h2 , h3 {
+   color: #0c3454;
+}
+h4{
+	padding-left: 10px;
+	color: #8193f5;
+}
+header{
+	display: inline;
+}
+header img{
+	width: 150px;
+	max-width: 300px;
+	object-fit: cover;
+	object-position: center;
+}
+main{
+	padding: 20px;
+	overflow: auto;
+}
+nav{
+	background-color: #0c3454;
+	padding: 3px;
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+nav li{
+	display:inline;
+	list-style-type: none;
+	margin-right: 10px;	
+}
+nav img{
+	width: 20px;
+}
+nav a{
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+nav a:hover{
+	font-weight: bold;
+	color:pink;
+}
+table{
+	padding-bottom: 20px;
+}
+@media screen and (max-width:1000px){
+	#content,
+	aside{
+		width: 100%;
+		padding: 0;
+	}
+	.box-skills{
+		padding: 0px;
+	}
+}
+@media screen and (max-width:400px){
+	.li-inline{
+		display: grid;
+		
+	}
+}

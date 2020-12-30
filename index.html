@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Submission</title>
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#Home">Home</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#Education">education</a></li>
+					<li><a href="#contact">contact</a></li>
+					<li><a href="#skills">skill</a></li>
+				</ul>
+			</nav>
+			<div class="bg-header" align="center" id="Home">
+				<div class="box-profile">
+					<img src="assets/image/bg-profile.png">
+					<h1>Hello, I'm Iqbal Nugraha</h1>
+					<p>"Keep it simple."</p>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div id="content">
+				<article id="about" class="box">
+					<h2>About</h2>
+						<p>Hello my name is Tengku Iqbal Nugraha, you can call me Iqbal. I was born in Jakarta on March 24, 2001. I was graduate from Telkom Vocational high School of Jakarta and now I am continuing my undergraduate studies at Mercu Buana University. I really like coding, even though it is not a major when I was in Vocational School and that's why I continued my undergraduate studies with a major in Information Engineering. Besides coding, I also like photograpy and design</p>
+				</article>
+				<article id="Education" class="box">
+					<h2>Education</h2>
+						<h4>SD</h4>
+						<ul>
+							<li>SDN Poris Pelawad 08 (2005 - 2010)</li>
+							<li>SDN Pabean 01 (2011-2012)</li>
+						</ul>
+						<h4>SMP</h4>
+						<ul>
+							<li>SMP Al-falah assalam (2012 - 2013)</li>
+							<li>SMP muhammadiyah 04 (2013 - 2015)</li>
+						</ul>
+						<h4>SMK</h4>
+						<ul>
+							<li>SMK Telkom Jakarta (2015 - 2018)</li>
+						</ul>
+				</article>
+				<div id="skills" class="box">
+					<h2>Skills</h2>
+					<ul style="list-style-type: none;">
+						<li class="li-inline"><button onclick="aler()">Adobe</button></li>
+						<li class="li-inline"><button onclick="myFunction2()">Microsoft</button></li>
+						<li class="li-inline"><button onclick="myFunction3()">web</button></li>
+					</ul>
+					<div id="myDiv" class="box-skills" >
+						<img class="featured-image" src="assets/image/skills.jpg">
+					</div>
+					<div id="myDiv1" class="box-skills">
+						<img class="featured-image" src="assets/image/mc.jpg">
+					</div>
+					<div id="myDiv2" class="box-skills">
+						<img class="featured-image" src="assets/image/web.jpg">
+					</div>
+				</div>
+			</div>
+			<aside>
+				<article id="contact" class="box">
+					<header style="text-align: center;">
+						<h3><i class="fa fa-user"></i> Personal Information</h3>
+					</header>
+					<section>
+						<table>
+							<tr>
+								<th>Email</th>
+								<td>Iqbalnugraha347@gmail.com</td>
+							</tr>
+							<tr>
+								<th>phone</th>
+								<td>+62 81284314408</td>
+							</tr>
+							<tr>
+								<th>Address</th>
+								<td>Cipondoh, Tangerang</td>
+							</tr>
+							<tr>
+								<th>Birthday</th>
+								<td>24 Maret 2001</td>
+							</tr>
+						</table>
+						<div class="footer-li">
+							<p>Find me on:</p>
+							<ul class="ul-aside">
+								<li class="li-inline">
+									<a href="https://www.instagram.com">
+										<i class="fa fa-instagram fa-lg"></i>
+									</a>
+								</li>
+								<li class="li-inline">
+									<a href="https://www.facebook.com">
+										<i class="fa fa-facebook fa-lg"></i>
+									</a>
+								</li>
+								<li class="li-inline">
+									<a href="https://www.linkedin.com">
+									<i class="fa fa-linkedin fa-lg"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</article>
+			</aside>
+		</main>
+		<footer>
+			<p>Belajar Dasar Pemrograman Web &#169; 2019, Dicoding Academy</p>
+		</footer>
+	</body>
+</html>
+<script type="text/javascript">
+	alert("Welcome to my personal Information")
+	const aler = () => {
+		var x = document.getElementById('myDiv');
+		if(x.style.display === 'block'){
+			x.style.display = 'none';
+		}else{
+			x.style.display = 'block';
+		}
+	}
+	function myFunction2(){
+		var x = document.getElementById('myDiv1');
+		if(x.style.display === 'block'){
+			x.style.display = 'none';
+		}else{
+			x.style.display = 'block';
+		}
+}
+	function myFunction3(){
+		var x = document.getElementById('myDiv2');
+		if(x.style.display === 'block'){
+			x.style.display = 'none';
+		}else{
+			x.style.display = 'block';
+		}
+}
+</script>
